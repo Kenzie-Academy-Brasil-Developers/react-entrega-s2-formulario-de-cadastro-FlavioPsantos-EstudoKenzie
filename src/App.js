@@ -19,7 +19,7 @@ const handleLogOut = ()=>{
         <Route path='/login'>
           <LoginPage setLoged={setLoged}/>
         </Route>
-        <Route path='/logado'>
+        <Route path='/logado/:user'>
           <Logado isLoged={isLoged} handleLogOut={handleLogOut}/>
         </Route>
       </Switch>

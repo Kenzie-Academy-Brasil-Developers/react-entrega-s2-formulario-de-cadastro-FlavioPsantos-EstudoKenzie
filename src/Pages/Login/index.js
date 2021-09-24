@@ -30,8 +30,8 @@ const LoginPage = ({setLoged}) => {
     const sigUp = (data) => {
         setLoged(true)
         setStatus(false)
-        if( data.name === 'Kenzie Academy'&& data.email === 'kenzieuser@kenzie.com'&& data.password === 'Kenzie@1'){ 
-            history.push('/logado')
+        if( data.email === 'kenzieuser@kenzie.com'&& data.password === 'Kenzie@1'){ 
+            history.push(`/logado/${data.name}`)
         }else{
             setStatus(true)
         }

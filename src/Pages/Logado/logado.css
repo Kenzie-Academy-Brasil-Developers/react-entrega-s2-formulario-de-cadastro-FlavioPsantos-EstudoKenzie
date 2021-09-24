@@ -1,0 +1,43 @@
+.logado{
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/img/2597544-business-concept-businessman-with-paint-roller-painting-word-success-dentro-de-aumento-grafico-de-barra-simbolo-de-dificuldade-ambicao-motivacao-luta-realizacao-simples-plano-desenho-eps-vetor.jpg');
+    background-size: cover;
+    background-color: rgb(200,240,180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logado>p{
+    width: 40%;
+    text-align: center;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: flex-end;
+    font-size:50px;
+    padding-left: 100px;
+    font-weight: bold;
+    padding-bottom: 200px;
+    color: white;
+}
+.voltar{
+    display: flex;
+    align-items:flex-end;
+    height: 50vh;
+    padding-right: 20px;
+}
+.voltar>span{
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: darkgray;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.voltar>span:hover{
+    color: darkgray;
+    background-color: white;
+}
